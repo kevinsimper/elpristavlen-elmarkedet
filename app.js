@@ -8,7 +8,7 @@ var nconf = require('nconf');
 nconf.file('./config.json');
 var StartDate, EndDate;
 StartDate = moment().subtract('month', 1).startOf('month').format('M/D/YYYY');
-EndDate = moment().subtract('month', 1).day(10).format('M/D/YYYY');
+EndDate = moment().subtract('month', 1).endOf('month').format('M/D/YYYY');
 
 console.log('Path', nconf.get('path'));
 program

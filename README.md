@@ -6,7 +6,8 @@ You can see the avaiable commands that you can run with, ´node app --help´
 
 ## How to install
 
-'npm install' will install depencies
+`npm install` will install depencies
+`node app.js --config` to create a config file
 
 ## How to run
 
