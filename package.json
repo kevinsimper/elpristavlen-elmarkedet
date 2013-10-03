@@ -1,0 +1,19 @@
+{
+  "name": "elmarkedet",
+  "version": "0.0.0",
+  "description": "A cli tool which downloads a zip file every month",
+  "main": "app.js",
+  "dependencies": {
+    "commander": "~2.0.0",
+    "moment": "~2.2.1",
+    "request": "~2.27.0",
+    "unzip": "~0.1.9",
+    "nconf": "~0.6.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT"
+}
